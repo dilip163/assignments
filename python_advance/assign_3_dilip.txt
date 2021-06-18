@@ -1,0 +1,32 @@
+1ans] funtion are mainly used for reuseability
+
+2ans] function run when it is called
+
+3ans] def function_name():
+	function is created with keyword def and followed  by function name with open and close paranthesis
+
+4ans] function is set of statements that together stmts line are called as function
+      where as for using those stmts we use function call by function_name()
+
+5ans] one global scope is there for a single programme for a local scope are equal to as many functions present in a program
+
+6ans] after completion of the function all the variables get distroyed and return  variable to global scope
+
+7ans] return value means that it gives the output of the funtion in the form of returnng valoe
+	no,it is not possible for the write a return value in a expression
+
+8ans] There is no compalsary for a  funtion to have a return value  there is no return value
+
+9ans] using global keyword we can make a funtion variable to a global variable
+		global count
+
+10ans] <class 'NoneType'>
+
+11ans] it just import the module named areallyyourpetsnamederic
+
+12ans] import spam
+	spam.bacon()
+
+13ans] we use a  try and except from crashing  when it encounters an error
+
+14ans] try clause run the program until the exception is encounterd and doesn't give an error instead goes to except clause and runs the except clause stmts
