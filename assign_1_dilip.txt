@@ -1,0 +1,31 @@
+1Ans] 'hello',-87.8,6 are values
+	*,-,/,+ are mathematical operators
+
+2ans] string is a datatype  and a variable is used to assign values to the values to the variables
+	ex:- 1   'dilip',"assignments" are  strings
+	     2   a='dilip' here a is variable
+
+3ans] int()- used to integers 
+      str()-used for strings
+      float()-used for decimal values
+
+4ans] expression is made up of a value,variable,mathematical operators 	
+
+5ans] a expression does some performance to a value but statement doen't
+	example :- x+2 is a expression
+                   x=2 is a statement
+
+6ans] bacon contains 22
+
+7ans] 'spam'+'spamspam'='spamspamspam'
+	'spam'*3='spamspamspam'
+
+8ans] eggs is a variable by assigning a value where as the 100 itself a datatype so it not possible to be a variable
+9ans] int() function for integer values
+      float() function for floating point numbers
+      str() function for string values
+
+10ans] 'I have eaten' + 99 + 'burritos.' gets an error because 99 is an integer and a string and int value can not be added 
+	instead ---->'I have eaten' + str(99) + 'burritos.' or
+		     'I have eaten' + '99' + 'burritos.'
+	
