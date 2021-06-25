@@ -1,0 +1,10 @@
+1ans]	RGBA stands for red-green-blue-alpha
+
+2ans]	image module contains the RGBA value 
+	mg = Image.open(‘image.png’)
+	rgba = img.convert(“RGBA”)
+	datas = rgba.getdata()
+
+3ans]	the box is used for croping purpose it contains (left,upper,right,lower)
+
+4ans]

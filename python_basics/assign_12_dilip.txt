@@ -1,0 +1,29 @@
+1ans]	PdfFileReader() needs to be opened in read-binary mode by passing 'rd' as the second argument to open() 
+	PdfFileWriter() needs to be opened in write-binary mode with 'wb'
+
+2ans]	pdfreader=pdfReader.getPage(5)
+
+3ans]	from PyPDF2 import PdfFileReader
+	pdf = PdfFileReader(open('path/to/file.pdf','rb'))
+	pdf.getNumPages()
+
+4ans]	decrypt(password) method is used for opening a encrypted file and returns 0 -> if the password is wrong,1-> if password matched
+
+5ans]	pdfreader.rotateClockwise(90) used to ratate the page 
+
+6ans]	Paragraph-level formatting, such as style, is preserved. All run-level formatting, such as bold or italic, is removed.
+
+
+8ans]	the object tkinter has bold, underline, italic, strike, and outline variables
+
+9ans]	object bold take the values True, False, and None. True means the property is “on”, False means it is “off”.
+	 Conceptually, the None value means “inherit”.
+10ans]	from docx import Document
+	document = Document()
+	document.save('test.docx')
+
+11ans]	import docx
+	doc=docx.Document()
+	doc.add_paragraph('hello,there!')
+
+12ans] the integer 0 represents the levels of headings available in Word documents

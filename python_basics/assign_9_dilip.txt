@@ -1,0 +1,21 @@
+1ans]	A relative path refers to a location that is relative to a current directory
+
+2ans]	an absolute path refers to the complete details needed to locate a file or folder starting from the root element and end with the other subdirectories
+
+3ans]	The method os.getcwd() returns the current working directory 
+	the method os.chdir() changes the current working directory to specified path
+
+4ans]	A dot(.) which represents the current directory itself . A double dots are used for moving up in the hierarchy
+
+5ans]	C:\bacon\eggs is the dir name, while spam.txt is the base name.
+
+6ans]	The three modes used in open funtions are 'r','w','a' for reading,writing,appending
+
+7ans]	To open a file in write mode, “w” is specified. When mode “w” is specified, it creates an empty file for output operations. 
+	 if the file already exists? with the same name its contents are discarded and the file is treated as a new empty file
+
+8ans]	read() would treat each character in the file separately, meaning that the iteration would happen for every character. 
+	The readline() function, on the other hand, only reads a single line of the file
+
+9ans]	A shelf value resembles a dictionary value; it has keys and values, along with keys() and values() methods that work 
+	similarly to the dictionary methods of the same names

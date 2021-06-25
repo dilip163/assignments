@@ -1,0 +1,16 @@
+1ans]	CSV files are faster and also consumes less memory whereas Excel consumes more memory while importing data. 
+
+2ans]	csv.reader() and csv.writer() have arguments filename, delimiter
+
+3ans]	csv.open(filename,r) for reading a csv file 
+	csv.open(filename,w) for writing a csv file 
+
+4ans]	writerows()
+	This function takes a list of iterables as parameter and writes each item as a comma separated line of items in the file.
+
+5ans]	delimeter : Alternative argument name for sep.
+	lineterminator : Character to break file into lines. Only valid with C parser.
+
+6ans]	json.loads() function takes a string of JSON data and returns a Python data structure
+
+7ans]	json.loads() function takes a Python data structure and returns a string of JSON data

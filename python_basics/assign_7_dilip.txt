@@ -1,0 +1,31 @@
+1ans]	re.compile() returns a regex objects
+
+2ans]
+
+3ans]	re.search() method takes a regular expression and a string searchs for that pattern within the string 
+	if the search is successful search() returns a match object or None otherwise
+
+4ans]	import re
+	phoneNumRegex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+	mo = phoneNumRegex.search('My number is 415-555-4242.')
+	print('Phone number found: ' + mo.group())
+	from the above program we will get output:--> Phone number found: 415-555-4242s
+
+5ans]	import re
+	phoneNumRegex = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)')
+	mo = phoneNumRegex.search('My number is 415-555-4242.')
+	print(mo.group(1))		#415
+	print(mo.group(2))		#555-4242
+
+6ans]
+
+7ans]	returns a list of string tuples
+
+8ans]	|- means a or operator example-> the regex four|4 accepts strings "four" or "4"
+
+9ans]	a word character  is a letter a number or an underscore the set of character may also represent by the regex character set[a-zA-Z0-9_]
+
+10ans]	a*---->match a or aa or aaa or an empty string
+	a+----> match a or aa or aaaa but not a string empty
+
+11ans]

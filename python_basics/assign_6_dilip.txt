@@ -1,0 +1,34 @@
+1ans]	Escape sequences allow you to include special characters in strings. To do this simply add a backslash(\)before the character you want to escape.
+	By keeping backslash before a character example \n and \t
+
+2ans]	\n- used for the next lines 
+	\t- used for the tab space 
+
+3ans]	use two backslashes to represent a blackslash
+	 example:--- text="\\"
+		     print(text)    output:--- \
+
+4ans]	string1="how\'s moving castle"
+	print(string1)
+	 #"how's moving castle"
+
+5ans]	str1='ineuron'
+	print(str1,end='\n')
+
+6ans]	'Hello world!'[1] ---->  e
+	'Hello world!'[0:5] ---->  'Hello'
+	'Hello world!'[:5] ---->  'Hello'
+	'Hello world!'[3:] ---->  'lo world!'
+
+7ans]	'Hello'.upper() --->'HELLO'
+	'Hello'.upper().islower() ---> Flase
+	'Hello'.upper().lower() ---> 'hello'
+
+8ans]	'Remember,remember,the fifty of july.'.split()
+		# ['Remember,remember,the' ,'fifty' ,'of' ,'july']
+	'-'.join('There can only one.'.split())
+		# 'There-can-only-one.'
+
+9ans]	rjust() ,ljust(),center() for the right,left,center justifying 
+
+10ans] strip() function remove the whitespace characters from the start or end

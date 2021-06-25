@@ -1,0 +1,21 @@
+1ans]	shutil.copy() will copy the single file and shutil.copytree() will copy an entire folder
+
+2ans]	os.rename() is used for renaming file  followed by old_name and new_name
+
+3ans]	delete function in send2trash will move a file or folder to the recycle bin while delete funtion in shutil functions  will permanently delete files and folders
+
+4ans]	zipfile(filename,'r')
+
+5ans]	
+import os, shutil
+
+def moveFileType(folder):
+    for folderName, subfolders, filenames in os.walk(folder):
+        for subfolder in subfolders:
+            for filename in filenames:
+                if filename.endswith('.jpg'):
+                    shutil.copy(folder + filename, '<destination>')
+		elif filename.endswith('.pdf'):
+		    shutil.copy(folder + filename, '<destination>')
+
+moveFileType('<source>')

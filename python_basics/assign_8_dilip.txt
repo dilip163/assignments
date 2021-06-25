@@ -1,0 +1,32 @@
+1ans]	PyInputPlus not included in standard library we need to install it
+
+2ans]	import pyinputplus as pypi
+	as we cant use pyinputplus repeadely so we use alias name instead as pypi
+
+3ans]	inputInt():accepts an integer value this also takes additional parameters for bounds returns an int
+	inputFloat():accepts a floating-point numeric value amd some additional parameters return a float
+
+4ans]	import pyinputplus as p
+	inp = pyip.inputInt(prompt = "Enter an Integer... ",min = 0, lessThan = 99 )
+	print(inp)
+	
+
+5ans]	allowRegexes takes are regular expression 
+		example--->import pyinputplus as pyip
+			   pyip.inputNum('input: ', allowRegexes=[r'(C)+'])
+			   input: AB
+			   'AB' is not a number.
+			    input: ABC
+			    'ABC'
+	blockRegexes takes a regular expression
+		example ---> import pyinputplus as pyip
+ 			     response = pyip.inputInt(blockRegexes=[r'[13579]$'])
+			     input:43
+			     this responce is invalid
+			     input:41
+			     this responce is invalid
+			     input:42
+			     42
+6ans]	if the block input is entered three times in the statement inputStr(limit=3) it will take input for 3 times in this case at last it raise an error
+
+7ans]	in the blocked statement inputStr(limit=3,default='hello') it will take input for 3 times in this case instead of raiseing an error it just gives an output hello
